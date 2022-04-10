@@ -16,16 +16,12 @@ body {
    line-height: 1.5;
 }
 
-.container {
-   margin: 0 auto;
-   width: 200px;
-}
-
 #search-box {
+   display: block;
    font: inherit;
    padding: 8px;
    max-width: 320px;
-   margin-bottom: 16px;
+   margin: 0 auto 16px auto;
 }
 
 .country-image {
@@ -34,6 +30,8 @@ body {
 }
 
 .country-list {
+   display: table;
+   margin: 0 auto;
    padding: 0px;
    list-style: none;
    font-weight: 500;
@@ -45,16 +43,13 @@ body {
    font-weight: 700;
 }
 
-.country-item {
-   display: flex;
-   align-items: center;
-}
-
 p span {
    font-size: 22px;
    font-weight: 700;
 }
 
 .country-info {
+   display: table;
+   margin: 0 auto;
    font-size: 18px;
 }
