@@ -7,9 +7,18 @@ body {
       Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
-   background-color: #fafafa;
-   color: #212121;
+
+
+   background: linear-gradient(to right, rgba(195, 166, 34, 1) 0%, rgba(45, 101, 253, 1) 100%);
+
+
+   color: #504d4d;
    line-height: 1.5;
+}
+
+.container {
+   margin: 0 auto;
+   width: 200px;
 }
 
 #search-box {
